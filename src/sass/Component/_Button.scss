@@ -1,0 +1,32 @@
+.buttons
+{
+  margin: 2rem 0 2rem 0;
+}
+
+.btn
+{
+  transition: all .2s;
+
+  text-align: left;
+  background: var(--base-darker);
+  width: 100%;
+  font-size: 1.8rem;
+  color: var(--base-bold-textColor);
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  margin: 7px 0;
+  padding: 1rem;
+  outline: none;
+
+  &:hover
+  {
+    cursor: pointer;
+    background: var(--base);
+    color: #fff;
+  }
+
+  &:active
+  {
+    background: var(--primary-lighter);
+  }
+}
